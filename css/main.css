@@ -1,0 +1,226 @@
+ html {
+    height: 100%;
+}
+body{
+  
+   height: 100%;
+   position: relative;
+}
+.img-rounded{
+  max-width: 50px;
+  max-height: 50px;
+  display: none;
+  padding-bottom: 20px;
+}
+
+h2 {
+
+  font-family: "Raleway", Arial, sans-serif;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+  text-align: center;
+  color: #fff;
+  /*text-transform: uppercase;*/
+  font-size: 50px;
+  
+  margin-bottom: 30px;
+  font-weight: 300 !important;
+  padding-top: 200px;
+}
+.proname{
+ text-align: center;  
+}
+.foot{
+  text-align: center;
+}
+
+#home{
+  background-image: url("./images/back.jpg");
+  background-repeat: no-repeat;
+  background-size:100% 100%; 
+  padding-top:50px;
+  height:650px;
+}
+
+
+.animate-reveal {
+  opacity: 0;
+  -webkit-animation: reveal 1.5s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+     -moz-animation: reveal 1.5s ease-in 1 normal forwards;
+       -o-animation: reveal 1.5s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+          animation: reveal 1.5s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+}
+
+.animate-first {
+  -webkit-animation-delay: 0;
+     -moz-animation-delay: 0;
+       -o-animation-delay: 0;
+          animation-delay: 0;
+}
+
+
+
+
+@-webkit-keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+       -moz-transform: translateY(100%);
+         -o-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+       -moz-transform: translateY(0);
+         -o-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@-moz-keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+       -moz-transform: translateY(100%);
+         -o-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+       -moz-transform: translateY(0);
+         -o-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@-o-keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+       -moz-transform: translateY(100%);
+         -o-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+       -moz-transform: translateY(0);
+         -o-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+       -moz-transform: translateY(100%);
+         -o-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+       -moz-transform: translateY(0);
+         -o-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+
+
+
+#portfilo {
+  padding-top:40px;
+  height:auto;
+  background-image:url("./images/img-3.jpg");
+   background-repeat: no-repeat;
+  background-size:100% 100%; 
+   }
+  
+   
+#about {
+  padding-top:50px;
+  height:600px;
+  background-image:url("./images/img-3.jpg");
+  background-repeat: no-repeat;
+  background-size:100% 100%; 
+   }
+#contact {
+  padding-top:50px;
+  height:700px;
+  background-image:url("./images/img-3.jpg"); 
+  background-repeat: no-repeat;
+  background-size:100% 100%; 
+   }
+
+
+#foot{
+  padding-top:50px;
+  height:50px;
+}
+
+
+ .social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+     
+ }
+
+
+ 
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-ig:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
